@@ -17,6 +17,9 @@ section:first-child div > p {
     color: gray;
     font-weight: 600;
 }
+.fa-apple:before {
+    font-size: 16px;
+}
 #phone img {
     width:80%;
 }
@@ -28,6 +31,7 @@ section:first-of-type button {
     padding: 0.5em 1em;
     border: none;
     font-weight: 600;
+    cursor: pointer;
 }
 section:first-of-type a {
     text-decoration: none;
@@ -46,4 +50,29 @@ section div .unique .fa-arrows-left-right:before  {
     left: 50%;
     transform: translate(-50%, -50%);
 }
- 
+/* 2nd Section  */
+h3 {
+    color: white;
+    font-size: 2em;
+}
+section:nth-child(2) div:first-of-type p {
+    line-height: 2em;
+    font-weight: 600;
+}
+#planning2 {
+    width: 100%;
+}
+.bgWhite h5 {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+section:nth-child(2) button {
+    border-radius:50%;
+    border: none;
+    padding: 1em;
+}
+.fa-arrow-down:before {
+    font-size: 20px;
+    color: black;
+    border: none;
+}
