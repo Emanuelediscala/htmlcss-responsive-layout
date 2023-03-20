@@ -14,6 +14,9 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+.boxed100w {
+    width: 100%;
+}
 .empyblock {
     width: 100%;
     background-color: red;
@@ -24,6 +27,7 @@
 .dispNone {
     display: none;
 }
+
 /* WIDTH  */
 .wid30 {
 width: 30%;
@@ -49,6 +53,9 @@ width: 30%;
 .wid80 {
     width: 80%;
 }
+.wid90 {
+    width: 90%;
+}
 .wid100 {
     width: 100%;
 }
@@ -59,12 +66,19 @@ width: 30%;
 .h20vh {
     height: 20vh;
 }
+.h30vh {
+    height: 30vh;
+}
 .h30vw {
     height: 33vw;
 }
+
 /* Padding  */
+.pad1em {
+    padding: 1.5em;
+}
 .pad2em {
-    padding: 2em;
+    padding:2em;
 }
 .pad4em {
     padding: 4em;
@@ -98,7 +112,7 @@ width: 30%;
     background-color:#0061ff;
 }
 .bgLightblue {
-    background-color: #b4d0e7;
+    background-color:#b5ddff
 }
 .bgWhite {
     background-color: white;
@@ -119,7 +133,7 @@ width: 30%;
     color: #f5f5f5;
 }
 .bgdarkBlue {
-    background-color: #0d2481;
+    background-color: #0084fd;
 }
 .bgYellow {
     background-color: yellow;
@@ -173,6 +187,9 @@ width: 30%;
 }
 
 /* Margin css  */
+.margin0auto {
+    margin:0 auto;
+}
 .margin-top-15 {
     margin-top: 15px;
 }
@@ -216,3 +233,6 @@ width: 30%;
 .margin-left-0 {
     margin-left: 0px;
 }
+
+/* Responsive Desktop  */
+/* Responsive Tablet */

@@ -1,0 +1,19 @@
+/* Header */
+nav .fa-solid {
+    color: white;
+    font-size: 1.5rem;
+}
+/* Main first section  */
+h4 {
+    color:#0084fd;
+    font-weight: 800;
+}
+section  div:first-child {
+    border-radius: 25px;
+}
+section div:first-child > p {
+    line-height: 1.5em;
+}
+#phone img {
+    width:80%;
+}
