@@ -76,3 +76,22 @@ section:nth-child(2) button {
     color: black;
     border: none;
 }
+/* 3th section  */
+.testimonials h4 {
+    color:#9792e4;
+    font-weight: 700;
+    text-align: center;
+}
+.testimonials p {
+    line-height: 2em;
+    font-weight: 500;
+}
+.testimonial {
+    border-radius:50%;
+    width: 100%;
+    
+}
+.fa-quote-left:before, .fa-quote-right:before {
+    font-size: 20px;
+    color: white;
+}
