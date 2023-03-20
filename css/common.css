@@ -14,8 +14,19 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+.empyblock {
+    width: 100%;
+    background-color: red;
+} 
+.inlineBlock {
+    display: inline-block;
+}
+.dispNone {
+    display: none;
+}
+/* WIDTH  */
 .wid30 {
-    width: 30%;
+width: 30%;
 }
 .wid33 {
     width: 33%;
@@ -41,13 +52,7 @@
 .wid100 {
     width: 100%;
 }
-.empyblock {
-    width: 100%;
-    background-color: red;
-} 
-.inlineBlock {
-    display: inline-block;
-}
+/* HEIGHT */
 .h80vh {
     height:80vh;
 }
@@ -57,37 +62,37 @@
 .h30vw {
     height: 33vw;
 }
-.pad {
+/* Padding  */
+.pad2em {
     padding: 2em;
 }
 .pad4em {
     padding: 4em;
 }
-.padUpDown {
-    margin: 2em 0;
+.padUpDown2em {
+    padding: 2em 0;
 }
-
+.padSide {
+    padding:0 2em;
+}
 .overflowYHidden {
     overflow-y: scroll;
 }
 .relative {
     position: relative;
 }
+/* Color  */
 .cWhite {
     color: white;
 }
 .cGray {
     color: gray;
 }
-.dispNone {
-    display: none;
-}
+
 .boxShadow {
     box-shadow: 0 0 0 1rem #ffffff99 inset;
 }
-.padRight {
-    padding: 3px;
-} 
+
 /* BG color  */
 .bgBlueButton {
     background-color:#0061ff;
