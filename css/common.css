@@ -1,0 +1,213 @@
+/* GENERICO CSS  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
+}
+.boxedLarge {
+    max-width: 1200px;
+    margin:0 auto;
+}
+.boxedSmall {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wid30 {
+    width: 30%;
+}
+.wid33 {
+    width: 33%;
+}
+.wid40 {
+    width: 40%;
+}
+.wid50 {
+    width: 50%;
+}
+.wid60 {
+    width: 60%;
+}
+.wid70 {
+    width: 70%;
+}
+.wid79 {
+    width: 79%;
+}
+.wid80 {
+    width: 80%;
+}
+.wid100 {
+    width: 100%;
+}
+.empyblock {
+    width: 100%;
+    background-color: red;
+} 
+.inlineBlock {
+    display: inline-block;
+}
+.h80vh {
+    height:80vh;
+}
+.h20vh {
+    height: 20vh;
+}
+.h30vw {
+    height: 33vw;
+}
+.pad {
+    padding: 2em;
+}
+.pad4em {
+    padding: 4em;
+}
+.padUpDown {
+    margin: 2em 0;
+}
+
+.overflowYHidden {
+    overflow-y: scroll;
+}
+.relative {
+    position: relative;
+}
+.cWhite {
+    color: white;
+}
+.cGray {
+    color: gray;
+}
+.dispNone {
+    display: none;
+}
+.boxShadow {
+    box-shadow: 0 0 0 1rem #ffffff99 inset;
+}
+.padRight {
+    padding: 3px;
+} 
+/* BG color  */
+.bgBlueButton {
+    background-color:#0061ff;
+}
+.bgLightblue {
+    background-color: #b4d0e7;
+}
+.bgWhite {
+    background-color: white;
+}
+.bgLightgreen {
+    background-color:#a2d39b;
+}
+.bgBordeau {
+    background-color:#61082b;
+}
+.bgBlue {
+    background-color:#0093ce;
+}
+.bgRed {
+    background-color: #ff1c1c;
+}
+.bgdirtyWhite{
+    color: #f5f5f5;
+}
+.bgdarkBlue {
+    background-color: #0d2481;
+}
+.bgYellow {
+    background-color: yellow;
+}
+.bgBlack {
+    background-color: black;
+}
+
+/* FLEX CSS */
+.flex {
+    display: flex;
+}
+.jtfcontFlexstart {
+    justify-content: flex-start;
+}
+.column {
+    flex-direction: column;
+}
+.jtfcontCenter {
+    justify-content: center;
+}
+.jtfcontSpacebet {
+    justify-content: space-between;
+}
+.jtfcontSpacearound {
+    justify-content:space-around;
+}
+.jtfcontSpaceEvenly {
+    justify-content:space-evenly;
+}
+.alignitmCenter {
+    align-items: center;
+}
+.alignitmflexStart {
+    align-items:flex-start
+}
+.alignitmflexEnd {
+    align-items:flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.gap1em {
+    gap: 1em;
+}
+.gap2em {
+    gap: 2em;
+}
+.gap3em {
+    gap: 3em;
+}
+
+/* Margin css  */
+.margin-top-15 {
+    margin-top: 15px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.margin-top-45 {
+    margin-top: 45px;
+}
+.margin-top-60 {
+    margin-top: 60px;
+}
+.margin-top-75 {
+    margin-top: 75px;
+}
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.margin-bottom-45 {
+    margin-bottom: 45px;
+}
+.margin-bottom-60 {
+    margin-bottom: 60px;
+}
+.margin-bottom-75 {
+    margin-bottom: 75px;
+}
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+.margin-right-5 {
+    margin-right: 5px;
+}
+.margin-left-0 {
+    margin-left: 0px;
+}
