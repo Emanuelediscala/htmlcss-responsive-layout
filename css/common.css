@@ -27,7 +27,9 @@
 .dispNone {
     display: none;
 }
-
+.textCenter {
+    text-align: center;
+}
 /* WIDTH  */
 .wid30 {
 width: 30%;
@@ -89,6 +91,9 @@ width: 30%;
 .padSide {
     padding:0 2em;
 }
+.padBottom0px {
+    padding-bottom: 0px;
+}
 .overflowYHidden {
     overflow-y: scroll;
 }
@@ -112,7 +117,7 @@ width: 30%;
     background-color:#0061ff;
 }
 .bgLightblue {
-    background-color:#b5ddff
+    background-color:#b5ddff;
 }
 .bgWhite {
     background-color: white;
@@ -187,8 +192,8 @@ width: 30%;
 }
 
 /* Margin css  */
-.margin0auto {
-    margin:0 auto;
+.margin1emauto {
+    margin:1em auto;
 }
 .margin-top-15 {
     margin-top: 15px;

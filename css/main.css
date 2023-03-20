@@ -7,13 +7,43 @@ nav .fa-solid {
 h4 {
     color:#0084fd;
     font-weight: 800;
+    font-size: 1.5rem;
 }
-section  div:first-child {
+section > div {
     border-radius: 25px;
 }
-section div:first-child > p {
-    line-height: 1.5em;
+section:first-child div > p {
+    line-height: 2em;
+    color: gray;
+    font-weight: 600;
 }
 #phone img {
     width:80%;
 }
+section:first-of-type button {
+    background-color: #0084fd;
+    color: white;
+    border-radius:25px;
+    width: 70%;
+    padding: 0.5em 1em;
+    border: none;
+    font-weight: 600;
+}
+section:first-of-type a {
+    text-decoration: none;
+}
+section .fa-solid {
+    color: #0084fd;
+    font-size: 5em;
+}
+section div .unique .fa-arrows-left-right:before  {
+    color:#b5ddff;
+}
+.relative .fa-arrows-left-right {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
