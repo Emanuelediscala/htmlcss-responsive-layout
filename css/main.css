@@ -95,3 +95,32 @@ section:nth-child(2) button {
     font-size: 20px;
     color: white;
 }
+/* 4th section  */
+.benefits h4 {
+    color: white;
+    text-align:center;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 1em;
+}
+.benefits h1 {
+    font-size: 50px;
+}
+.benefits h1, .benefits h5 {
+    color: #9792e4;
+}
+.benefits .bgWhite h5 {
+    font-weight: 700;
+}
+.benefits p {
+    line-height:1.5em;
+}
+.benefits button {
+    border-radius: 25px;
+    border: none;
+    padding: 1em 3em;
+    width: 50%;
+    background-color: #9792e4;
+    color: white;
+    font-weight: 700;
+}

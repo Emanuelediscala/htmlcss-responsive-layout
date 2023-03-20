@@ -205,6 +205,9 @@ width: 30%;
 }
 
 /* Margin css  */
+.margin0auto {
+    margin:0 auto;
+}
 .margin1emauto {
     margin:1em auto;
 }
