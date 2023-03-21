@@ -256,4 +256,93 @@ width: 30%;
 }
 
 /* Responsive Desktop  */
+
+@media screen and (min-width:900px) {
+    .boxed100w {
+        width:60%;
+    }
+    /* HEADER */
+    nav {
+        margin: 0 auto;
+    }
+    nav .fa-bars {
+        display: none;
+    }
+    .dispNone {
+        display: inline;
+    }
+    /* MAIN  */
+        /* first section  */
+    .demo {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding:1em 0px;
+        gap: 1.5em;
+    }
+    .demo .block {
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+    }
+    .phoneposition {
+        width: 100%;
+    }
+    .blockWid30 {
+        width: 30%;
+    }
+    /* 2nd section  */
+    .strategicWid100 {
+        width: 100%;
+    }
+    .strategic {
+        width: 60%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .strategic img{
+        width: 70%;
+    }
+    .strategicFlexColumn {
+        display: flex;
+        flex-direction: column;
+    }
+    .planningTwo {
+        margin-top: 100px;
+    }
+    .strategicflex p, .strategicflex h3 {
+        margin-top: 2em;
+    }
+    /* 3th section  */
+    .sectiontestimonialsDesktop {
+        margin: 0 auto;   
+    }
+    .testimonialsflex {
+        display: flex;
+        flex-direction: row;
+    }
+    .testimonialsflex img {
+        width: 30%;
+    }
+    .testimonialsflex p {
+        text-align: justify;
+    }
+    /* 4th section  */
+    .benefitswid100 {
+        width: 100%;
+    }
+    .benefitsflexRow {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .benefitswid33 {
+        width: 30%;
+        margin: 1em;
+    }
+    /* 5th section  */
+    
 /* Responsive Tablet */

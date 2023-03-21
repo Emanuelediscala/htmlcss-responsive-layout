@@ -124,3 +124,67 @@ section:nth-child(2) button {
     color: white;
     font-weight: 700;
 }
+/* 5th section */
+#about {
+    width: 70%;
+    border-radius: 50%;
+}
+.about-us h1 {
+    font-size: 25px;
+    color: #9792e4;
+}
+.about-us h4 {
+    color: #9792e4;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.about-us p {
+    line-height: 2em;
+}
+.about-us button {
+    background-color: #9792e4;
+    padding: 0.5em 2em;
+    border-radius: 25px;
+    width: 60%;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* 6th section  */
+.fa-circle:before {
+    font-size: 10px;
+    color: white;
+}
+.get-started h1 {
+    color: #fdc15f;
+    font-weight: 700;
+    font-size: 3em;
+}
+.get-started h2 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.get-started h3 {
+    font-weight: 200;
+    color: lightgray;
+}
+.get-started p {
+    color: white;
+    line-height: 2em;
+    text-align: center;
+}
+.get-started button {
+    color: #9792e4;
+    padding:1em;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+    word-spacing:1px;
+    width: 60%;
+}
+/* footer section  */
+footer p {
+    color: white;
+}
