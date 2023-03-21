@@ -134,7 +134,6 @@ section:nth-child(2) button {
     border-radius: 25px;
     border: none;
     padding: 1em 3em;
-    width: 50%;
     background-color: #9792e4;
     color: white;
     font-weight: 700;
@@ -201,4 +200,210 @@ section:nth-child(2) button {
 /* footer section  */
 footer p {
     color: white;
+}
+
+/* Responsive Tablet */
+@media screen and (min-width:769px) {
+    .wid-t-100 {
+        width: 100%;
+    }
+    .flex-t {
+        display: flex;
+    }
+    .flexdirectionRow-t {
+        flex-direction: row;
+    }
+    .wrap-t {
+        flex-wrap: wrap;
+    }
+    .wid-t-64 {
+        width: 64%;
+    }
+    .wid-t-30 {
+        width: 30%;
+    }
+    .wid-t-40 {
+        width: 40%;
+    }
+    .wid-t-calc {
+        width: calc(100% / 2 - 2em);
+    }
+    .wid-t-50 {
+        width: 50%;
+    }
+    .wid-t-80 {
+        width: 80%;
+    }
+    .wid-90-t {
+        width: 90%;
+    }
+    .wid-t-100 {
+        width: 100%;
+    }
+    .gap-t-1em {
+        gap: 1em;
+    }
+    .phone-t {
+        width: 80%;
+    }
+    .jtfcontFlexstart-t {
+        justify-items: flex-start;
+    }
+    .jtfcontSpacebet-t {
+        justify-content: space-between;
+    }
+    .textleft-t {
+        text-align: left;
+    }
+    .text-t-900 {
+        font-weight: 900;
+    }
+    .margin-bottom-t-0 {
+        margin-bottom: 0px;
+    }
+    .pad-t-1em {
+        padding: 1em;
+    }
+    #about {
+        width: 60%;
+    }
+}
+
+
+/* Responsive Desktop  */
+@media screen and (min-width:900px) {
+    .boxed100w {
+        width:60%;
+    }
+    .width-d-100 {
+        width: 100%;
+    }
+    .width-d-60 {
+        width: 60%;
+    }
+    /* HEADER */
+    nav {
+        margin: 0 auto;
+    }
+    nav .fa-bars {
+        display: none;
+    }
+    .dispNone {
+        display: inline;
+    }
+    /* MAIN  */
+        /* first section  */
+    .demo {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding:1em 0px;
+        gap: 1.5em;
+    }
+    .demo .block {
+        display: flex;
+        flex-direction: row;
+        width: 65%;
+    }
+
+    .blockWid30 {
+        width: 30%;
+    }
+    .h100desktop{
+        height: 100%;
+    }
+    .phonecontainer {
+        margin-top:  7em;
+        margin-left: 0px;
+        height: 72%;
+        width: 100%;
+    }
+    /* 2nd section  */
+    .strategicWid100 {
+        width: 100%;
+    }
+    .strategic {
+        width: 60%;
+        margin: 0 auto;
+        flex-direction: row;
+    }
+    .strategic img{
+        width: 70%;
+    }
+    .strategicFlexColumn {
+        display: flex;
+        flex-direction: column;
+    }
+    .planningTwo {
+        margin-top: 100px;
+    }
+    .strategicflex p, .strategicflex h3 {
+        margin-top: 2em;
+    }
+    /* 3th section  */
+    .sectiontestimonialsDesktop {
+        margin: 0 auto;   
+    }
+    .testimonialsflex {
+        display: flex;
+        flex-direction: row;
+    }
+    .testimonialsflex img {
+        width: 30%;
+    }
+    .testimonialsflex p {
+        text-align: justify;
+    }
+    /* 4th section  */
+    .benefitswid100 {
+        width: 100%;
+    }
+    .benefitsflexRow {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .benefitswid33 {
+        width: 30%;
+        margin: 1em;
+    }
+    /* 5th section  */
+    .about-us-desktop {
+        margin: 0 auto;
+        width: 60%;
+        padding:0px;
+    }
+    .about-us h1 {
+        font-size: 40px;
+    }
+    .aboutcontainer {
+        width: 100%;
+    }
+    #about {
+        width: 80%;
+    }
+    .about-us-flex {
+        display: flex;
+        flex-direction: row;
+    }
+    .about-us h4:last-child {
+        color: #9792e4;
+        font-size: 1.3em;
+        font-weight: 700;
+        padding:0 1em;
+    }
+    /* 6th section */
+    .get-started {
+        width: 100%;
+    }
+    .get-started span, .get-started a {
+        color: white;
+        word-spacing: 8px;
+    }
+    .footer{
+    width: 100%;
+    }
 }
